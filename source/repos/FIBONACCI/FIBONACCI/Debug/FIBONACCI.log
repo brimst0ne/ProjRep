@@ -1,0 +1,3 @@
+﻿  Source.c
+C:\Users\TEMYCH\source\repos\FIBONACCI\FIBONACCI\Source.c(15,23): warning C4013: malloc: нет определения; предполагается "extern" с возвратом типа "int"
+  FIBONACCI.vcxproj -> C:\Users\TEMYCH\source\repos\FIBONACCI\Debug\FIBONACCI.exe

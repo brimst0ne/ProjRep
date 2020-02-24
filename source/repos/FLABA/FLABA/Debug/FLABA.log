@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\TEMYCH\source\repos\FLABA\FLABA\Source.c(20,18): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\TEMYCH\source\repos\FLABA\FLABA\Source.c(8,6): warning C4101: d: неиспользованная локальная переменная
+  FLABA.vcxproj -> C:\Users\TEMYCH\source\repos\FLABA\Debug\FLABA.exe

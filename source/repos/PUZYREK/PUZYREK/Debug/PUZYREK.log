@@ -1,0 +1,7 @@
+﻿  Source.c
+C:\Users\TEMYCH\source\repos\PUZYREK\PUZYREK\Source.c(27,10): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "double"
+C:\Users\TEMYCH\source\repos\PUZYREK\PUZYREK\Source.c(29,14): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\TEMYCH\source\repos\PUZYREK\PUZYREK\Source.c(34,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\TEMYCH\source\repos\PUZYREK\PUZYREK\Source.c(9,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\TEMYCH\source\repos\PUZYREK\PUZYREK\Source.c(9,15): warning C4101: b: неиспользованная локальная переменная
+  PUZYREK.vcxproj -> C:\Users\TEMYCH\source\repos\PUZYREK\Debug\PUZYREK.exe

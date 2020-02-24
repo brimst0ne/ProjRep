@@ -1,0 +1,8 @@
+﻿  main.c
+K:\УЧЁБА\source\repos\RAB\RAB\main.c(19,11): warning C4013: CreateArr: нет определения; предполагается "extern" с возвратом типа "int"
+K:\УЧЁБА\source\repos\RAB\RAB\main.c(20,5): warning C4013: Gen: нет определения; предполагается "extern" с возвратом типа "int"
+K:\УЧЁБА\source\repos\RAB\RAB\main.c(21,21): warning C4047: функция: "FILE **" отличается по уровням косвенного обращения от "char *"
+K:\УЧЁБА\source\repos\RAB\RAB\main.c(21,21): warning C4024: fopen_s: различные типы для формального и фактического параметров 1
+K:\УЧЁБА\source\repos\RAB\RAB\main.c(21,26): error C2198: fopen_s: слишком мало аргументов для вызова
+K:\УЧЁБА\source\repos\RAB\RAB\main.c(21,27): warning C4047: =: "FILE *" отличается по уровням косвенного обращения от "errno_t"
+K:\УЧЁБА\source\repos\RAB\RAB\main.c(22,7): warning C4013: Print: нет определения; предполагается "extern" с возвратом типа "int"

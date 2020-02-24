@@ -1,0 +1,9 @@
+﻿  main.c
+C:\Users\TEMYCH\source\repos\INTER\INTER\main.c(16,12): warning C4129: T: неизвестная escape-последовательность
+C:\Users\TEMYCH\source\repos\INTER\INTER\main.c(16,12): warning C4129: s: неизвестная escape-последовательность
+C:\Users\TEMYCH\source\repos\INTER\INTER\main.c(16,12): warning C4129: F: неизвестная escape-последовательность
+C:\Users\TEMYCH\source\repos\INTER\INTER\main.c(16,12): warning C4129: D: неизвестная escape-последовательность
+C:\Users\TEMYCH\source\repos\INTER\INTER\main.c(17,6): warning C4013: READ: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\TEMYCH\source\repos\INTER\INTER\main.c(32,10): warning C4013: Printm: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\TEMYCH\source\repos\INTER\INTER\main.c(53,7): warning C4013: getch: нет определения; предполагается "extern" с возвратом типа "int"
+  INTER.vcxproj -> C:\Users\TEMYCH\source\repos\INTER\Debug\INTER.exe

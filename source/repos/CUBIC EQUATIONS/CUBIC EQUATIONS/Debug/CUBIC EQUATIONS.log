@@ -1,0 +1,3 @@
+﻿  Source.c
+C:\Users\TEMYCH\source\repos\CUBIC EQUATIONS\CUBIC EQUATIONS\Source.c(9,10): warning C4098:  main: функция типа "void", возвращающая значение
+  CUBIC EQUATIONS.vcxproj -> C:\Users\TEMYCH\source\repos\CUBIC EQUATIONS\Debug\CUBIC EQUATIONS.exe

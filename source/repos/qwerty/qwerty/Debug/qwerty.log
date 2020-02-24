@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\TEMYCH\source\repos\qwerty\qwerty\main.c(16,8): warning C4013: massiv: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\TEMYCH\source\repos\qwerty\qwerty\main.c(18,10): warning C4098: main: функция типа "void", возвращающая значение
+  qwerty.vcxproj -> C:\Users\TEMYCH\source\repos\qwerty\Debug\qwerty.exe

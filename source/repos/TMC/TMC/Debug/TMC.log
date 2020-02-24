@@ -1,0 +1,10 @@
+﻿  Source.c
+C:\Users\TEMYCH\source\repos\TMC\TMC\Source.c(12,23): warning C4013: malloc: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\TEMYCH\source\repos\TMC\TMC\Source.c(43,9): warning C4473: "printf": передано недостаточно аргументов для строки формата
+C:\Users\TEMYCH\source\repos\TMC\TMC\Source.c(43,9): message : заполнители и их параметры ожидают переменное число аргументов в количестве 3, но было предоставлено 2
+C:\Users\TEMYCH\source\repos\TMC\TMC\Source.c(43,9): message : отсутствующий вариативный аргумент "3" требуется для строки форматирования "%lf"
+C:\Users\TEMYCH\source\repos\TMC\TMC\Source.c(44,9): warning C4473: "printf": передано недостаточно аргументов для строки формата
+C:\Users\TEMYCH\source\repos\TMC\TMC\Source.c(44,9): message : заполнители и их параметры ожидают переменное число аргументов в количестве 3, но было предоставлено 2
+C:\Users\TEMYCH\source\repos\TMC\TMC\Source.c(44,9): message : отсутствующий вариативный аргумент "3" требуется для строки форматирования "%lf"
+C:\Users\TEMYCH\source\repos\TMC\TMC\Source.c(45,7): warning C4013: getch: нет определения; предполагается "extern" с возвратом типа "int"
+  TMC.vcxproj -> C:\Users\TEMYCH\source\repos\TMC\Debug\TMC.exe

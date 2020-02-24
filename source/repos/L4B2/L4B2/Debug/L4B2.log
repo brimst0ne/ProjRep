@@ -1,0 +1,3 @@
+﻿  prog.c
+F:\УЧЁБА\source\repos\L4B2\L4B2\prog.c(45,6): warning C4101:  i: неиспользованная локальная переменная
+  L4B2.vcxproj -> F:\УЧЁБА\source\repos\L4B2\Debug\L4B2.exe

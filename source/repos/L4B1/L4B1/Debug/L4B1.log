@@ -1,0 +1,7 @@
+﻿  main.c
+F:\УЧЁБА\source\repos\L4B1\L4B1\main.c(11,11): warning C4098:  main: функция типа "void", возвращающая значение
+F:\УЧЁБА\source\repos\L4B1\L4B1\main.c(20,11): warning C4098:  main: функция типа "void", возвращающая значение
+F:\УЧЁБА\source\repos\L4B1\L4B1\main.c(31,10): warning C4098:  main: функция типа "void", возвращающая значение
+F:\УЧЁБА\source\repos\L4B1\L4B1\main.c(22,1): warning C4047:  инициализация: "int" отличается по уровням косвенного обращения от "char *"
+F:\УЧЁБА\source\repos\L4B1\L4B1\main.c(23,1): warning C4047:  инициализация: "int" отличается по уровням косвенного обращения от "char *"
+  L4B1.vcxproj -> F:\УЧЁБА\source\repos\L4B1\Debug\L4B1.exe
