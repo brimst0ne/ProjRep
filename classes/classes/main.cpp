@@ -24,14 +24,14 @@ void main()
 	newGround.Setspecial(false);
 	newGround.Setpurpose(1);
 
-	cout << "newGround is performing: " << newGround.Voice() << endl;
+	cout << "Ground transport is riding: " << newGround.Voice() << endl;
 
 	Car newCar;
-	cout << "newCar is performing: " << newCar.Voice() << endl;
+	cout << "Car is riding: " << newCar.Voice() << endl;
 	cout << "range = " << newCar.Getrange() << endl;
 
 	Bike newBike;
-	cout << "newBike is riding nearby: " << newBike.Voice() << endl;
+	cout << "Bike is riding nearby: " << newBike.Voice() << endl;
 	cout << "range = " << newBike.Getrange() << endl;
 
 	Air newAir;
@@ -39,14 +39,14 @@ void main()
 	newAir.Setrange(1500000);
 	newAir.Setweight(2000);
     
-	cout << "newAir is performing: " << newAir.Voice() << endl;
+	cout << "Air transport is flying: " << newAir.Voice() << endl;
 
 	Plane newPlane;
-	cout << "newPlane is performing: " << newPlane.Voice() << endl;
+	cout << "Plane is flying: " << newPlane.Voice() << endl;
 	cout << "range = " << newPlane.Getrange() << endl;
 
 	Helicopter newHeli;
-	cout << "newHeli is performing: " << newHeli.Voice() << endl;
+	cout << "Helicopter is flying: " << newHeli.Voice() << endl;
 	cout << "range = " << newHeli.Getrange() << endl;
 
 	Ground** Vehicles = 0;
