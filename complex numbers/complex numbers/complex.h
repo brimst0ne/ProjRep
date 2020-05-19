@@ -11,7 +11,7 @@ public:
 	void set(double a, double b);
 	Complex get();
 	
-	friend  Complex operator + (Complex& a, Complex& b);
+	friend Complex operator + (Complex& a, Complex& b);
 	friend Complex operator - (Complex& a, Complex& b);
 	friend Complex operator * (Complex& a, Complex& b);
 	friend Complex operator / (Complex& a, Complex& b);

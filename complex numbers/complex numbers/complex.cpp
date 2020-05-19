@@ -35,8 +35,10 @@ Complex Complex::get()
 
 Complex operator + (Complex& a, Complex& b)
 {
-
-	return Complex(a.Re + b.Re, a.Im + b.Im);
+	Complex rez;
+	rez.Re = a.Re + b.Re;
+	rez.Im = a.Im + b.Im;
+	return rez;
 }
 
 Complex operator * (Complex& a, Complex& b)

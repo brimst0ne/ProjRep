@@ -10,26 +10,31 @@ int main() {
 	Complex a;
 	Complex b(1, 2);
 	Complex c(b);
-	cout << a << " " << b << " " << c << " Конструкторы класса" << endl;
+	Complex f;
+	cout << " Конструкторы класса " << a << " " << b << " " << c << endl;
 	c.set(3, 4);
-	cout << c.get() << " Set и Get " << endl;
+	cout << " Set: " << c << endl;
+	f = c.get();
+	cout << " Get: " << f << endl;
+	
 	Complex d;
 	d = a + b;
-	cout << d << " + " << endl;
+	cout << " Сложение: " << d << endl;
 	d = d - b;
-	cout << d << " - " << endl;
+	cout << " Вычитание: " << d << endl;
 	d = c * b;
-	cout << d << " * " << endl;
+	cout << " Умножение: " << d << endl;
 	d = c / b;
-	cout << " / " << d << endl;
+	cout << " Деление: " << d << endl;
 	d = b;
-	cout << d << " = " << endl;
-	cout << (d == b) << " == " << endl;
-	cout << (a == b) << " == " << endl;
+	cout << " Присваивание: " << d << endl;
+	
+	cout << " Сравнение: " << (d == b) << endl;
+	cout << " Сравнение: " << (a == b) << endl;
 
 	Complex r;
 	cin >> r;
-	cout << r << " cin>> " << endl;
+	cout << " Потоковый ввод: " << r << endl;
 
 	return 0;
 }
