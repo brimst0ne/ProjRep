@@ -27,11 +27,16 @@ void Complex::set(double a, double b)
 	Im = b;
 }
 
-Complex Complex::get()
+double Complex::getRe()
 {
-	Complex c(Re, Im);
-	return c;
+	return Re;
 }
+
+double Complex::getIm()
+{
+	return Im;
+}
+
 
 Complex operator + (Complex& a, Complex& b)
 {
@@ -67,6 +72,9 @@ Complex operator / (Complex& a, Complex& b)
 
 Complex& Complex:: operator =(const Complex& a)
 {
+	if (&a == this)
+		return *this;
+	
 	Re = a.Re;
 	Im = a.Im;
 	return *this;

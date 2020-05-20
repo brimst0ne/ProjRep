@@ -13,9 +13,9 @@ int main() {
 	MyString a;
 	MyString b("unzial_const");
 	MyString c(b);
-	cout << b.get_s() << " Доступ к полю" << endl;
-	cout << c.get_s() << " Доступ к полю" << endl;
-	c.set_s("Доступ к полю");
+	cout << b.get_s() << " Доступ к полю " << endl;
+	cout << c.get_s() << " Доступ к полю " << endl;
+	c.set_s(" Доступ к полю ");
 	cout << c << endl;
 	MyString d;
 	d = b + c;
@@ -33,6 +33,6 @@ int main() {
 	cin >> a;
 	cout << b.find("_c") << endl;
 	cout << b.find_c("z") << endl;
-	b.Cstrtok("_");
+	cout << a.Cstrtok("a") << endl;
 	return 0;
 }

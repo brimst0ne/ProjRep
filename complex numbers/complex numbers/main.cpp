@@ -10,12 +10,12 @@ int main() {
 	Complex a;
 	Complex b(1, 2);
 	Complex c(b);
-	Complex f;
+
 	cout << " Конструкторы класса " << a << " " << b << " " << c << endl;
 	c.set(3, 4);
 	cout << " Set: " << c << endl;
-	f = c.get();
-	cout << " Get: " << f << endl;
+	
+	cout << " Get: " << c.getRe() << "+" << c.getIm() << "i" << endl;
 	
 	Complex d;
 	d = a + b;

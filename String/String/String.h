@@ -57,7 +57,7 @@ public:
 
 	char* find_c(const char* c);
 
-	void Cstrtok(const char* c);
+	MyString* Cstrtok(const char* c);
 
 private:
 	char* init;

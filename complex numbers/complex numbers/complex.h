@@ -9,7 +9,8 @@ public:
 	Complex(double a, double b);
 	Complex(Complex& A);
 	void set(double a, double b);
-	Complex get();
+	double getRe();
+	double getIm();
 	
 	friend Complex operator + (Complex& a, Complex& b);
 	friend Complex operator - (Complex& a, Complex& b);

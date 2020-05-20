@@ -55,6 +55,11 @@ MyString operator +(MyString& a, MyString& b) {
 }
 
 MyString& MyString::operator =(const MyString& a) {
+	if (&a == this)
+		return *this;
+	if (this->init != nullptr)
+		delete[] init;
+
 	length = a.length;
 	size = length + 1;
 	init = new char[size];
@@ -105,15 +110,31 @@ char* MyString::find_c(const char* c) {
 	return t;
 }
 
-void MyString::Cstrtok(const char* c) {
-	char* istr = strtok(init, c);
+MyString* MyString::Cstrtok(const char* c) {
+	int count = 0;
 
+	MyString tmp = init;
 
+	char* istr = strtok(tmp.init, c);
 	while (istr != NULL)
 	{
-
-		cout << istr << endl;
-
+		count += 1;
 		istr = strtok(NULL, c);
 	}
+
+	tmp = init;
+
+	MyString* result = new MyString[count];
+
+	count = 0;
+
+	istr = strtok(tmp.init, c);
+	while (istr != NULL)
+	{
+		result[count] = istr;
+		count += 1;
+		istr = strtok(NULL, c);
+	}
+
+	return result;
 }
