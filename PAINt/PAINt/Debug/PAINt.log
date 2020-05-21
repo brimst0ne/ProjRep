@@ -1,0 +1,18 @@
+﻿  main.cpp
+C:\Users\TEMYCH\source\repos\PAINt\PAINt\Circle.h(137,25): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\TEMYCH\source\repos\PAINt\PAINt\Circle.h(136): message : во время компиляции функции-члена класс шаблон "float Circle<char>::Area(void)"
+C:\Users\TEMYCH\source\repos\PAINt\PAINt\Circle.h(28): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Circle<char>"
+C:\Users\TEMYCH\source\repos\PAINt\PAINt\Triangle.h(129,39): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+C:\Users\TEMYCH\source\repos\PAINt\PAINt\Triangle.h(128): message : во время компиляции функции-члена класс шаблон "float Triangle<char>::Area(void)"
+C:\Users\TEMYCH\source\repos\PAINt\PAINt\Triangle.h(29): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Triangle<char>"
+C:\Users\TEMYCH\source\repos\PAINt\PAINt\Square.h(117,14): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+C:\Users\TEMYCH\source\repos\PAINt\PAINt\Square.h(116): message : во время компиляции функции-члена класс шаблон "float Square<char>::Area(void)"
+C:\Users\TEMYCH\source\repos\PAINt\PAINt\Square.h(28): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Square<char>"
+C:\Users\TEMYCH\source\repos\PAINt\PAINt\Rectangle.h(130,15): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+C:\Users\TEMYCH\source\repos\PAINt\PAINt\Rectangle.h(129): message : во время компиляции функции-члена класс шаблон "float Rectangle<char>::Area(void)"
+C:\Users\TEMYCH\source\repos\PAINt\PAINt\Rectangle.h(30): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Rectangle<char>"
+C:\Users\TEMYCH\source\repos\PAINt\PAINt\Cube.h(143,21): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+C:\Users\TEMYCH\source\repos\PAINt\PAINt\Cube.h(142): message : во время компиляции функции-члена класс шаблон "float Cube<char>::Area(void)"
+C:\Users\TEMYCH\source\repos\PAINt\PAINt\main.cpp(57): message : выполняется компиляция ссылки на экземпляр шаблон функции "float Cube<char>::Area(void)"
+C:\Users\TEMYCH\source\repos\PAINt\PAINt\main.cpp(25): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Cube<char>"
+  PAINt.vcxproj -> C:\Users\TEMYCH\source\repos\PAINt\Debug\PAINt.exe
